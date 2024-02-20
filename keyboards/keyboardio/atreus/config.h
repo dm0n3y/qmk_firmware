@@ -21,6 +21,11 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+// https://docs.qmk.fm/#/tap_hold?id=hold-on-other-key-press
+#define HOLD_ON_OTHER_KEY_PRESS
+
+#define ONESHOT_TIMEOUT 1000
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
